@@ -1,0 +1,17 @@
+D:\CDAC\.Net_MOdule\Service\bin\Debug\net9.0\Service.deps.json
+D:\CDAC\.Net_MOdule\Service\bin\Debug\net9.0\Service.dll
+D:\CDAC\.Net_MOdule\Service\bin\Debug\net9.0\Service.pdb
+D:\CDAC\.Net_MOdule\Service\bin\Debug\net9.0\Models.dll
+D:\CDAC\.Net_MOdule\Service\bin\Debug\net9.0\Repository.dll
+D:\CDAC\.Net_MOdule\Service\bin\Debug\net9.0\Repository.pdb
+D:\CDAC\.Net_MOdule\Service\bin\Debug\net9.0\Models.pdb
+D:\CDAC\.Net_MOdule\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+D:\CDAC\.Net_MOdule\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\.Net_MOdule\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+D:\CDAC\.Net_MOdule\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+D:\CDAC\.Net_MOdule\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+D:\CDAC\.Net_MOdule\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+D:\CDAC\.Net_MOdule\Service\obj\Debug\net9.0\Service.dll
+D:\CDAC\.Net_MOdule\Service\obj\Debug\net9.0\refint\Service.dll
+D:\CDAC\.Net_MOdule\Service\obj\Debug\net9.0\Service.pdb
+D:\CDAC\.Net_MOdule\Service\obj\Debug\net9.0\ref\Service.dll

@@ -1,0 +1,45 @@
+﻿@using Models;
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@{
+	List<Employee> employees = ViewData["employees"] as List<Employee>;
+}
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Department</th>
+            <th>Designation</th>
+			<th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in employees)
+        {
+            <tr>
+                <td>@employee.Id</td>
+                <td>@employee.Name</td>
+                <td>@employee.Age</td>
+                <td>@employee.Department</td>
+                <td>@employee.Designation</td>
+				<td>@employee.Salary</td>
+                <td>
+                    <a asp-action="UpdateEmployee" asp-route-id="@employee.Id" class="btn btn-primary">Update</a>
+                    <form asp-action="DeleteEmployee" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@employee.Id" />
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
